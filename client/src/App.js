@@ -9,8 +9,8 @@ function App() {
     .then((response) => response.json())
     .then((data) => {
       setQuotesData(data);
-    })
-  }, [])
+    });
+  }, []);
   return (
     <div className="App">
       <header className="App-header">
